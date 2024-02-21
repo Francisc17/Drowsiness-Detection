@@ -1,0 +1,6 @@
+data/
+yolov5/
+labelImg/
+runs/
+.vscode/
+yolov5s.pt
