@@ -1,7 +1,7 @@
 
 # Motivation
 
-Feeling abnormally sleepy or tired during the day is commonly known as drowsiness. Drowsiness may lead to additional symptoms, such as forgetfulness or falling asleep at inappropriate times. A variety of things may cause drowsiness, like the following ones [1] : 
+Feeling abnormally sleepy or tired during the day is commonly known as drowsiness. Drowsiness may lead to additional symptoms, such as forgetfulness or falling asleep at inappropriate times. A variety of things may cause drowsiness, like the following ones \[1] : 
 1. Lifestyle factors
 2. Mental state
 3. Medical conditions
