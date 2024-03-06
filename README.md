@@ -19,7 +19,7 @@ This work and respective implementation was strongly influenced by: [https://www
 
 YOLOv5 was used because i already had some knowledge using it but in practice YOLOv8 should be a better option and could potentially improve the results obtained. Here we can see the comparison between the two \[5] :
 
-![Drowsiness Detection   1|800](https://i.imgur.com/FKpjV62.png)
+![Drowsiness Detection   1 | 800](https://i.imgur.com/FKpjV62.png)
 
 
 The YOLO (You Only Look Once) model suggests utilizing an end-to-end neural network that predicts bounding boxes and class probabilities simultaneously. This approach diverges from previous object detection methods, which adapted classifiers for detection purposes. 
