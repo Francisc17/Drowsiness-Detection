@@ -12,6 +12,8 @@ Utilizing artificial intelligence, we have the capability to identify signs of f
 
 The focus of this work is to apply the YOLO (You Only Look Once) network to detect drowsiness in real-time. I opted for YOLO due to its simplicity, excellent speed, and accuracy, along with its ease of installation.
 
+This work and respective implementation was strongly influenced by: [https://www.youtube.com/watch?v=tFNJGim3FXw](https://www.youtube.com/watch?v=tFNJGim3FXw)
+
 ---
 # YOLO (You Only Look Once)
 
