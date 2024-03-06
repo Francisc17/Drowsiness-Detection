@@ -17,7 +17,7 @@ This work and respective implementation was strongly influenced by: [https://www
 ---
 # YOLO (You Only Look Once)
 
-YOLOv5 was used because i already had some knowledge using it but in practice YOLOv8 should be a better option and could potentially improve the results obtained. Here we can see the comparison between the two [5] :
+YOLOv5 was used because i already had some knowledge using it but in practice YOLOv8 should be a better option and could potentially improve the results obtained. Here we can see the comparison between the two \[5] :
 
 ![Drowsiness Detection   1|800](https://i.imgur.com/FKpjV62.png)
 
@@ -47,7 +47,7 @@ YOLO v5 was introduced in 2020 by the same team that developed the original YOLO
 
 YOLO v5 contrasts with its predecessor in training data and anchor box generation. YOLO trained on the 20-category PASCAL VOC dataset, while YOLO v5 employs the more expansive D5 dataset with 600 categories. YOLO v5 introduces "dynamic anchor boxes," generated via clustering ground truth boxes for better alignment with detected objects. Additionally, it implements "spatial pyramid pooling" (SPP) to enhance small object detection, refining the SPP architecture for superior performance compared to YOLO v4.
 
-The YOLOv5 series consists of four variants: YOLOv5s, YOLOv5m, YOLOv5l, and YOLOv5x, each offering different trade-offs in terms of speed and accuracy [5] :
+The YOLOv5 series consists of four variants: YOLOv5s, YOLOv5m, YOLOv5l, and YOLOv5x, each offering different trade-offs in terms of speed and accuracy \[5] :
 - **YOLOv5s** is the smallest and fastest version, suitable for real-time applications with slightly lower accuracy.
 - **YOLOv5m** provides a balance between speed and accuracy, making it a versatile choice for various applications.
 - **YOLOv5l** offers improved accuracy at the expense of speed, making it suitable for tasks demanding higher precision. (**Used on this work**)
@@ -58,7 +58,7 @@ The YOLOv5 series consists of four variants: YOLOv5s, YOLOv5m, YOLOv5l, and YOLO
 
 After YOLOv5, we already had v6, v7 and v8 but that will be explained in more depth on future work.
 
-**To learn more about YOLO and its architecture, I recommend the following references: [6-9]**
+**To learn more about YOLO and its architecture, I recommend the following references: \[6-9]**
 
 ---
 # Dataset
