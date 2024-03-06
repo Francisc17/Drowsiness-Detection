@@ -216,3 +216,4 @@ This was a very interesting piece of work to do in order to better understand ho
 [7]: https://arxiv.org/abs/1506.02640
 [8]: https://dataphoenix.info/a-guide-to-the-yolo-family-of-computer-vision-models/
 [9]: https://blog.roboflow.com/guide-to-yolo-models/
+
