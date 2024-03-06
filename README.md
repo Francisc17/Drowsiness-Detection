@@ -68,7 +68,8 @@ YOLOv5 pre-trained on the COCO dataset was used. This dataset has 80 different c
 The custom and smaller dataset that we use to train YOLO was made by me, by manually collecting images for each class (Drowsiness and awake) and labelling them.
 
 Collect images for each class:
-```Python
+
+```python
 cap = cv2.VideoCapture(0) # 0 indicates the standard system associated cam
 
 for label in labels:
@@ -118,7 +119,7 @@ To train a custom model, I used the technique known as transfer learning. This c
 
 The YOLOv5l was used here with the custom dataset:
 
-```Python
+```python
 # The cloning yolov5 project already has a train.py file to be used for train
 # --img parameter defines the picture size (320x320 in this case)
 # --batch defines the batch size, determining how many images are preocessed in each train iteration
@@ -132,20 +133,20 @@ The YOLOv5l was used here with the custom dataset:
 
 After training, we first need to load the custom model:
 
-```Python
+```python
 # load model with custom weights (the previous trained ones)
 model = torch.hub.load('ultralytics/yolov5', 'custom', path='yolov5/runs/train/exp31//weights/last.pt', force_reload=True)
 ```
 
 And after that we can pass some images to test it:
 
-```Python
+```python
 # Two diferent pictures in order to test the model
 img_test1 = "data/test/test1.jpg"
 img_test2 = "data/test/test2.jpg"
 ```
 
-```Python
+```python
 # test model on awake
 
 results = model(img_test1)
@@ -157,7 +158,7 @@ plt.show()
 
 ![Drowsiness Detection   awake test](https://i.imgur.com/CRJWofC.png)
 
-```Python
+```python
 # Test model on drowsy
 results = model(img_test2)
 
@@ -172,7 +173,7 @@ plt.show()
 
 We can, of course, use the model to predict in real-time:
 
-```Python
+```python
 # Same real time detection used before but with our trained yolo model
 
 cap = cv2.VideoCapture(0)
@@ -193,6 +194,7 @@ cv2.destroyAllWindows()
 # Conclusion
 
 This was a very interesting piece of work to do in order to better understand how the YOLO network works, how images are normally collected and labelled for Computing Vision tasks. Although it's a simple piece of work, it's something that can serve as a basis for building a more robust system with great practical applicability.
+
 ### Strengths
 - Good performance, with the system being able to identify most cases correctly.
 - Use of a specific dataset with my own data, allowing me to explore labelling tools.
@@ -210,12 +212,20 @@ This was a very interesting piece of work to do in order to better understand ho
 # References:
 
 \[1]: https://www.healthline.com/health/drowsiness
+
 \[2]: https://ieeexplore.ieee.org/document/9596413
+
 \[3]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9482962/
+
 \[4]: https://www.mdpi.com/2313-433X/9/5/91
+
 \[5]: https://www.augmentedstartups.com/blog/yolov8-vs-yolov5-choosing-the-best-object-detection-model
+
 \[6]: https://www.v7labs.com/blog/yolo-object-detection
+
 \[7]: https://arxiv.org/abs/1506.02640
+
 \[8]: https://dataphoenix.info/a-guide-to-the-yolo-family-of-computer-vision-models/
+
 \[9]: https://blog.roboflow.com/guide-to-yolo-models/
 
