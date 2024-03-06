@@ -209,13 +209,13 @@ This was a very interesting piece of work to do in order to better understand ho
 ---
 # References:
 
-[1]: https://www.healthline.com/health/drowsiness
-[2]: https://ieeexplore.ieee.org/document/9596413
-[3]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9482962/
-[4]: https://www.mdpi.com/2313-433X/9/5/91
-[5]: https://www.augmentedstartups.com/blog/yolov8-vs-yolov5-choosing-the-best-object-detection-model
-[6]: https://www.v7labs.com/blog/yolo-object-detection
-[7]: https://arxiv.org/abs/1506.02640
-[8]: https://dataphoenix.info/a-guide-to-the-yolo-family-of-computer-vision-models/
-[9]: https://blog.roboflow.com/guide-to-yolo-models/
+\[1]: https://www.healthline.com/health/drowsiness
+\[2]: https://ieeexplore.ieee.org/document/9596413
+\[3]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9482962/
+\[4]: https://www.mdpi.com/2313-433X/9/5/91
+\[5]: https://www.augmentedstartups.com/blog/yolov8-vs-yolov5-choosing-the-best-object-detection-model
+\[6]: https://www.v7labs.com/blog/yolo-object-detection
+\[7]: https://arxiv.org/abs/1506.02640
+\[8]: https://dataphoenix.info/a-guide-to-the-yolo-family-of-computer-vision-models/
+\[9]: https://blog.roboflow.com/guide-to-yolo-models/
 
