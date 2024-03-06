@@ -19,7 +19,7 @@ This work and respective implementation was strongly influenced by: [https://www
 
 YOLOv5 was used because i already had some knowledge using it but in practice YOLOv8 should be a better option and could potentially improve the results obtained. Here we can see the comparison between the two \[5] :
 
-![Drowsiness Detection   1 | 800](https://i.imgur.com/FKpjV62.png)
+![Drowsiness Detection   1](https://i.imgur.com/FKpjV62.png)
 
 
 The YOLO (You Only Look Once) model suggests utilizing an end-to-end neural network that predicts bounding boxes and class probabilities simultaneously. This approach diverges from previous object detection methods, which adapted classifiers for detection purposes. 
@@ -30,7 +30,7 @@ Following a fundamentally different approach to object detection, YOLO achieved 
 
 The YOLO algorithm takes an image as input and then uses a simple deep convolutional neural network to detect objects in the image. The architecture of the CNN model that forms the backbone of YOLO is shown below.
 
-![Drowsiness Detection   2 1| 800](https://i.imgur.com/EUMfBDW.png)
+![Drowsiness Detection   2 1](https://i.imgur.com/EUMfBDW.png)
 
 YOLO uses an initial pre-training phase on the first 20 convolution layers with ImageNet, then the pre-trained model is converting for detection, since previous research demonstrates that adding convolution and connected layers to a pre-trained network improves performance.
 
@@ -42,7 +42,7 @@ Non-maximum suppression (NMS) is employed post-processing to refine detection ac
 
 YOLO v5 was introduced in 2020 by the same team that developed the original YOLO algorithm as an open-source project and is maintained by Ultralytics. YOLO v5 builds upon the success of previous versions and adds several new features and improvements. Unlike YOLO, YOLO v5 uses a more complex architecture called EfficientDet (architecture shown below), based on the EfficientNet network architecture. Using a more complex architecture in YOLO v5 allows it to achieve higher accuracy and better generalization to a wider range of object categories.
 
-![Drowsiness Detection   3| 900](https://i.imgur.com/N7W2k1p.png)
+![Drowsiness Detection   3](https://i.imgur.com/N7W2k1p.png)
 
 
 YOLO v5 contrasts with its predecessor in training data and anchor box generation. YOLO trained on the 20-category PASCAL VOC dataset, while YOLO v5 employs the more expansive D5 dataset with 600 categories. YOLO v5 introduces "dynamic anchor boxes," generated via clustering ground truth boxes for better alignment with detected objects. Additionally, it implements "spatial pyramid pooling" (SPP) to enhance small object detection, refining the SPP architecture for superior performance compared to YOLO v4.
@@ -53,7 +53,7 @@ The YOLOv5 series consists of four variants: YOLOv5s, YOLOv5m, YOLOv5l, and YOLO
 - **YOLOv5l** offers improved accuracy at the expense of speed, making it suitable for tasks demanding higher precision. (**Used on this work**)
 - **YOLOv5x** is the largest and most accurate variant, suitable for applications where high accuracy is paramount, although it presents slower inference times. 
 
-![Drowsiness Detection   4|900](https://i.imgur.com/tqouOGh.png)
+![Drowsiness Detection   4](https://i.imgur.com/tqouOGh.png)
 
 
 After YOLOv5, we already had v6, v7 and v8 but that will be explained in more depth on future work.
