@@ -119,7 +119,7 @@ To train a custom model, I used the technique known as transfer learning. This c
 
 The YOLOv5l was used here with the custom dataset:
 
-```python
+{% highlight python %}
 # The cloning yolov5 project already has a train.py file to be used for train
 # --img parameter defines the picture size (320x320 in this case)
 # --batch defines the batch size, determining how many images are preocessed in each train iteration
@@ -129,7 +129,7 @@ The YOLOv5l was used here with the custom dataset:
 # --workers pecifies the number of CPU workers used for data loading during training.
 
 !cd yolov5 && python train.py --img 320 --batch 16 --epochs 200 --data data.yaml --weights yolov5l.pt --workers 6
-```
+{% endhighlight %}
 
 After training, we first need to load the custom model:
 
