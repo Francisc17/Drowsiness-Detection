@@ -69,7 +69,7 @@ The custom and smaller dataset that we use to train YOLO was made by me, by manu
 
 Collect images for each class:
 
-```py
+{% highlight python %}
 cap = cv2.VideoCapture(0) # 0 indicates the standard system associated cam
 
 for label in labels:
@@ -102,7 +102,8 @@ for label in labels:
 # Release resources
 cap.release()
 cv2.destroyAllWindows()
-```
+{% endhighlight %}
+
 
 The manual labelling was made using the [LabelImg package](https://pypi.org/project/labelImg/) that is a graphical image annotation tool and label object bounding boxes in images.
 
