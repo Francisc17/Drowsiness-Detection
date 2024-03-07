@@ -69,7 +69,7 @@ The custom and smaller dataset that we use to train YOLO was made by me, by manu
 
 Collect images for each class:
 
-```
+```python
 cap = cv2.VideoCapture(0) # 0 indicates the standard system associated cam
 
 for label in labels:
