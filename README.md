@@ -190,6 +190,9 @@ cap.release()
 cv2.destroyAllWindows()
 ```
 
+{: .box-note}
+**Note:** You can see the full code at: [https://github.com/franciscomesquitaAI/Drowsiness-Detection/blob/main/drowsiness_detection.ipynb](https://github.com/franciscomesquitaAI/Drowsiness-Detection/drowsiness_detection.ipynb).
+
 ---
 # Conclusion
 
